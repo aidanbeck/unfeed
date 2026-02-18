@@ -1,0 +1,15 @@
+a[href="/reels/"] { /* reels button */
+    display: none !important;
+}
+div[role="presentation"]:not(ul) { /* disables buttons on reels */
+    display: none !important;
+}
+div[ria-label="Video player"] {
+    display: none !important;
+}
+div[data-reel-type="suggested"] {
+    display: none !important;
+}
+div[role="button"][aria-hidden="true"][tabindex="0"] { /* hide images on the homepage */
+    display: none !important;
+}
